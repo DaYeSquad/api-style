@@ -11,10 +11,10 @@
 1. 如果接口返回正确的值应为:
 
 ```JSON
-data: {
-  content: "content goes for here"
+"data": {
+  "content": "content goes for here"
 }
-code:18721
+"code":18721
 ```
 
 其中，data 内包含正确情况下返回的 Object，code 为业务层状态码 (非 HTTP 状态码)
@@ -22,23 +22,23 @@ code:18721
 如果错误应该返回:
 
 ```JSON
-error: {
-  code: 400,
-  message: "USERNAME_OR_PASSWORD_ERROR"
+"error": {
+  "code": 400,
+  "message": "USERNAME_OR_PASSWORD_ERROR"
 }
 ```
 
 或
 
 ```JSON
-errors: [
+"errors": [
   {
-    code: 400,
-    message: "argument 0 should be a number"
+    "code": 400,
+    "message": "argument 0 should be a number"
   },
   {
-    code: 400,
-    message: "argument 1 should be a string"
+    "code": 400,
+    "message": "argument 1 should be a string"
   }
 ]
 ```
