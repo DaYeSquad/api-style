@@ -84,10 +84,10 @@
 
 7. 使用 ISO 8601 标准来表示持续时间
 
+如: three years, six months, four days, twelve hours, thirty minutes, and five seconds
+
 ```JSON
 {
-  // three years, six months, four days, twelve hours,
-  // thirty minutes, and five seconds
   "duration": "P3Y6M4DT12H30M5S"
 }
 ```
