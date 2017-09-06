@@ -6,6 +6,12 @@
 2. 使用 GET 获取数据、PUT 修改、上传数据、POST 新增数据、DELETE 删除数据
 3. 在 HTTP Response 中使用正确的状态码，如 2xx, 4xx, 5xx 等
 
+## 版本化
+
+1.在设计之初就进行版本化，在同一版本中，接口的返回形式不能够改变，版本化后 URL 如:
+
+`https://api.gagogroup.cn/api/v1`
+
 ## JSON 格式规范
 
 1. 如果接口返回正确的值应为:
